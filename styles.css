@@ -187,8 +187,8 @@ a{color:inherit;text-decoration:none;}
   background:var(--gradient-primary);box-shadow:var(--shadow-lg);
 }
 .avatar-placeholder{
-   .avatar-img{ width:100%; height:100%; object-fit:cover; border-radius:28px; display:block; }
-  background:linear-gradient(160deg,#eef3fc,#dbe6fb);
+  width:100%; height:100%; object-fit:cover; border-radius:28px;
+   background:linear-gradient(160deg,#eef3fc,#dbe6fb);
   display:flex;align-items:center;justify-content:center;
   font-family:var(--font-display);font-weight:800;font-size:2.6rem;color:var(--blue-700);
 }
